@@ -1,0 +1,41 @@
+UniqID	SPECIES	CC	COGID	COGCAT	DESCRIPTION	PATH	Species	Genome Project ID	Shorthand ID	Pathogen
+307259246	52575	6402	COG1629	P	Outer membrane receptor proteins, mostly Fe transport	1	-	-	-	-
+213155363	59083	7654	COG3514	S	Uncharacterized protein conserved in bacteria	1	-	-	-	-
+213155364	59083	6402	COG1629	P	Outer membrane receptor proteins, mostly Fe transport	1	-	-	-	-
+213156414	59083	4216	COG0790	R	FOG: TPR repeat, SEL1 subfamily	1	-	-	-	-
+213157904	59083	6402	COG1629	P	Outer membrane receptor proteins, mostly Fe transport	1	-	-	-	-
+41865	-	-	-	-	-	-	Sebaldella termitidis ATCC 33386	PRJNA41865	Ste	2
+237807988	59395	4216	COG0790	R	FOG: TPR repeat, SEL1 subfamily	2	-	-	-	-
+187476667	61563	6402	COG1629	P	Outer membrane receptor proteins, mostly Fe transport	1	-	-	-	-
+57955	-	-	-	-	-	-	Rhizobium leguminosarum bv. viciae 3841	PRJNA57955	Rle	2
+58163	-	-	-	-	-	-	Vibrio fischeri ES114	PRJNA58163	Vfi	2
+58249	-	-	-	-	-	-	Agrobacterium vitis S4	PRJNA58249	Avi	1
+58373	-	-	-	-	-	-	Psychrobacter cryohalolentis K5	PRJNA58373	Pcr	2
+58557	-	-	-	-	-	-	Arcobacter butzleri RM4018	PRJNA58557	Abu	1
+58617	-	-	-	-	-	-	Aeromonas hydrophila subsp. hydrophila ATCC 7966	PRJNA58617	Ahy	1
+58927	-	-	-	-	-	-	Clostridium botulinum A str. ATCC 19397	PRJNA58927	Cbo	1
+59083	-	-	-	-	-	-	Acinetobacter baumannii AB0057	PRJNA59083	Aba	1
+59251	-	-	-	-	-	-	Aliivibrio salmonicida LFI1238	PRJNA59251	Asa	1
+59297	-	-	-	-	-	-	Dickeya zeae Ech1591	PRJNA59297	Dze	1
+59369	-	-	-	-	-	-	Clostridium kluyveri NBRC 12016	PRJNA59369	Ckl	2
+59391	-	-	-	-	-	-	Escherichia coli BW2952	PRJNA59391	Eco	2
+59395	-	-	-	-	-	-	Tolumonas auensis DSM 9187	PRJNA59395	Tau	2
+59899	-	-	-	-	-	-	Achromobacter xylosoxidans A8	PRJNA59899	Axy	2
+61563	-	-	-	-	-	-	Bordetella avium 197N	PRJNA61563	Bav	1
+54521	-	-	-	-	-	-	Bacteroides caccae ATCC 43185	PRJNA54521	Bca	1
+238899921	59391	4216	COG0790	R	FOG: TPR repeat, SEL1 subfamily	2	-	-	-	-
+55451	-	-	-	-	-	-	Capnocytophaga gingivalis ATCC 33624	PRJNA55451	Cgi	1
+222147474	58249	7195	COG0790/COG1196	R/D	NA	1	-	-	-	-
+116250359	57955	7195	COG0790/COG3409	R/M	NA	2	-	-	-	-
+116252994	57955	7654	COG3514	S	Uncharacterized protein conserved in bacteria	2	-	-	-	-
+251790374	59297	8101	COG0790	R	FOG: TPR repeat, SEL1 subfamily	1	-	-	-	-
+209695496	59251	4216	COG0790	R	FOG: TPR repeat, SEL1 subfamily	1	-	-	-	-
+269118978	41865	4216	COG0790	R	FOG: TPR repeat, SEL1 subfamily	2	-	-	-	-
+117618069	58617	8101	COG0790	R	FOG: TPR repeat, SEL1 subfamily	1	-	-	-	-
+59712147	58163	4216	COG0790	R	FOG: TPR repeat, SEL1 subfamily	2	-	-	-	-
+93007054	58373	4216	COG0790	R	FOG: TPR repeat, SEL1 subfamily	2	-	-	-	-
+59712084	58163	4178	COG0790/COG0484	R/O	NA	2	-	-	-	-
+311109147	59899	6402	COG1629	P	Outer membrane receptor proteins, mostly Fe transport	2	-	-	-	-
+93006436	58373	4216	COG0790	R	FOG: TPR repeat, SEL1 subfamily	2	-	-	-	-
+52575	-	-	-	-	-	-	Actinobacillus pleuropneumoniae serovar 11 str. 56153	PRJNA52575	Apl	1
+209695170	59251	4178	COG0790/COG0484	R/O	NA	1	-	-	-	-
