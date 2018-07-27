@@ -33,7 +33,8 @@ _NB_: use a different name for the `blast`  output (here `Seq_alt.blastp`) to av
 |`Seq.blastp.cleanNetwork.dico` | Correspondence between initial IDs and sequence ids.|Internal use only.|
 
 - in `graphsXX/`  (for `XX=30,40,50,60,70,80,90,95`):
-| File | DESCRIPTION | COMMENT |
+|
+File | DESCRIPTION | COMMENT |
 |--------|:-----------|:------|
 |`[CC/family].nodes` | Community file for gene families.||
 |`graph.edges` | The bipartite graph obtained by factoring the `GenomeToSeq.txt`  ROOT graph by the gene family file.|The weight in the third column is _log_(nb of original edges).|
@@ -43,6 +44,7 @@ _NB_: use a different name for the `blast`  output (here `Seq_alt.blastp`) to av
 |`graph0.twin_comp` | The community file describing the twin+support overlapping clustering.||
 
 - in `graphsXX/TwinQuotient/` :
+
 | File | DESCRIPTION |
 |--------|:-----------|
 |`graph1.edges` |The bipartite graph obtained by factoring `graph0.edges`  by the `graph0.twins`  file.|
@@ -53,6 +55,7 @@ _NB_: use a different name for the `blast`  output (here `Seq_alt.blastp`) to av
 |`graph1.bic_comp` |Community file describing the biconnected component (overlapping) clustering of `graph1`. |
 
 ### DESCRIPTION FILES
+
 | File | DESCRIPTION | COMMENT |
 |--------|:-----------|:------|
 |`graph1.config` |XML configuration file (generated automatically).|Requires additional files|
@@ -65,7 +68,7 @@ _NB_: use a different name for the `blast`  output (here `Seq_alt.blastp`) to av
 ## EXAMPLE OF OUTPUT:  `Module 6`  (Twin + support) at `XX=95` 
 
 |Module|Level 2|Level 1|Root Level|
-|--------|:-----------|:------|:-----------|:------|
+|--------|:-----------|:------|:-----------|
 |`NodeType1` Support |48, 54	(Genomes)|64897,68995 (Genomes)|Aeromonas hydrophila subsp. hydrophila ATCC 7966, Tolumonas auensis DSM 9187 (Genomes)|
 |`NodeType2` Twin|15 (Twin Gene Families)|253,264,531,585,764,871 (Gene Families)|2 COG0267, 2 COG0361, 2 COG0100, 2 COG0126, 2 COG0335, 2 COG0148 (Genes)|
 
