@@ -126,240 +126,238 @@ In `graph1.desc`, this appears under this format:
 
 In `graph1.xml_desc`, the same module is described as follows:
 
-<mod name="Module" id="6">
-<content>
-	<attr name="Pathogen">
-		{'1': 1, '2': 1}
-	</attr>
-	<attr name="CC">
-		{'597': 2, '3015': 2, '2158': 2, '1940': 2, '706': 2, '2155': 2}
-	</attr>
-	<attr name="Species">
-		{'Aeromonas hydrophila subsp. hydrophila ATCC 7966': 1, 'Tolumonas auensis DSM 9187': 1}
-	</attr>
-	<attr name="Genome Project ID">
-		{'PRJNA58617': 1, 'PRJNA59395': 1}
-	</attr>
-	<attr name="Shorthand ID">
-		{'Tau': 1, 'Ahy': 1}
-	</attr>
-	<attr name="COGCAT">
-		{'G': 4, 'J': 8}
-	</attr>
-	<attr name="PATH">
-		{'1': 6, '2': 6}
-	</attr>
-	<attr name="COGID">
+    <mod name="Module" id="6">
+    <content>
+	    <attr name="Pathogen">
+		    {'1': 1, '2': 1}
+	    </attr>
+	    <attr name="CC">
+		    {'597': 2, '3015': 2, '2158': 2, '1940': 2, '706': 2, '2155': 2}
+	    </attr>
+	    <attr name="Species">
+		    {'Aeromonas hydrophila subsp. hydrophila ATCC 7966': 1, 'Tolumonas auensis DSM 9187': 1}
+	    </attr>
+	    <attr name="Genome Project ID">
+		    {'PRJNA58617': 1, 'PRJNA59395': 1}
+	    </attr>
+	    <attr name="Shorthand ID">
+		    {'Tau': 1, 'Ahy': 1}
+	    </attr>
+	    <attr name="COGCAT">
+	            {'G': 4, 'J': 8}
+	    </attr>
+	    <attr name="PATH">
+		    {'1': 6, '2': 6}
+	    </attr>
+	    <attr name="COGID">
 		{'COG0267': 2, 'COG0361': 2, 'COG0100': 2, 'COG0126': 2, 'COG0335': 2, 'COG0148': 2}
-	</attr>
-	<attr name="DESCRIPTION">
-		{'Enolase': 2, '3-phosphoglycerate kinase': 2, 'Ribosomal protein S11': 2, 'Ribosomal protein L19': 2, 'Translation initiation factor 1 (IF-1)': 2, 'Ribosomal protein L33': 2}
-	</attr>
-	<attr name="SPECIES">
-		{'59395': 6, '58617': 6}
-	</attr>
-</content>
-<trail level="2">
-<key name="NodeType2" type="2" id="15">
-	<attr name="COGID">
-		{'COG0267': 2, 'COG0361': 2, 'COG0100': 2, 'COG0126': 2, 'COG0335': 2, 'COG0148': 2}
-	</attr>
-	<attr name="CC">
-		{'597': 2, '3015': 2, '2158': 2, '1940': 2, '706': 2, '2155': 2}
-	</attr>
-	<attr name="COGCAT">
-		{'G': 4, 'J': 8}
-	</attr>
-	<attr name="PATH">
-		{'1': 6, '2': 6}
-	</attr>
-	<attr name="SPECIES">
-		{'59395': 6, '58617': 6}
-	</attr>
-	<attr name="DESCRIPTION">
-		{'Enolase': 2, '3-phosphoglycerate kinase': 2, 'Ribosomal protein S11': 2, 'Ribosomal protein L19': 2, 'Translation initiation factor 1 (IF-1)': 2, 'Ribosomal protein L33': 2}
-	</attr>
-</key>
-<key name="NodeType1" type="1" id="48">
-	<attr name="Genome Project ID">
-		{'PRJNA58617': 1}
-	</attr>
-	<attr name="Pathogen">
-		{'1': 1}
-	</attr>
-	<attr name="Shorthand ID">
-		{'Ahy': 1}
-	</attr>
-	<attr name="Species">
+	    </attr>
+	    <attr name="DESCRIPTION">
+		    {'Enolase': 2, '3-phosphoglycerate kinase': 2, 'Ribosomal protein S11': 2, 'Ribosomal protein L19': 2, 'Translation initiation factor 1 (IF-1)': 2, 'Ribosomal protein L33': 2}
+	    </attr>
+	    <attr name="SPECIES">
+		    {'59395': 6, '58617': 6}
+	    </attr>
+    </content>
+    <trail level="2">
+    <key name="NodeType2" type="2" id="15">
+	    <attr name="COGID">
+		    {'COG0267': 2, 'COG0361': 2, 'COG0100': 2, 'COG0126': 2, 'COG0335': 2, 'COG0148': 2}
+ 	    </attr>
+	    <attr name="CC">
+		    {'597': 2, '3015': 2, '2158': 2, '1940': 2, '706': 2, '2155': 2}
+	    </attr>
+	    <attr name="COGCAT">
+		    {'G': 4, 'J': 8}
+	    </attr>
+	    <attr name="PATH">
+		    {'1': 6, '2': 6}
+  	    </attr>
+	    <attr name="SPECIES">
+		    {'59395': 6, '58617': 6}
+	    </attr>
+	    <attr name="DESCRIPTION">
+		    {'Enolase': 2, '3-phosphoglycerate kinase': 2, 'Ribosomal protein S11': 2, 'Ribosomal protein L19': 2, 'Translation initiation factor 1 (IF-1)': 2, 'Ribosomal protein L33': 2}
+	    </attr>
+    </key>
+    <key name="NodeType1" type="1" id="48">
+	    <attr name="Genome Project ID">
+		    {'PRJNA58617': 1}
+	    </attr>
+	    <attr name="Pathogen">
+		    {'1': 1}
+	    </attr>
+	    <attr name="Shorthand ID">
+		    {'Ahy': 1}
+	    </attr>
+		<attr name="Species">
 		{'Aeromonas hydrophila subsp. hydrophila ATCC 7966': 1}
 	</attr>
-</key>
-<key name="NodeType1" type="1" id="54">
-	<attr name="Genome Project ID">
-		{'PRJNA59395': 1}
-	</attr>
-	<attr name="Pathogen">
-		{'2': 1}
-	</attr>
-	<attr name="Shorthand ID">
-		{'Tau': 1}
-	</attr>
-	<attr name="Species">
-		{'Tolumonas auensis DSM 9187': 1}
-	</attr>
-</key>
-</trail>
-<trail level="1">
-<key name="NodeType2" type="2" id="871">
-	<attr name="COGID">
-		{'COG0335': 2}
-	</attr>
-	<attr name="CC">
-		{'3015': 2}
-	</attr>
-	<attr name="COGCAT">
-		{'J': 2}
-	</attr>
-	<attr name="PATH">
-		{'1': 1, '2': 1}
-	</attr>
-	<attr name="SPECIES">
-		{'59395': 1, '58617': 1}
-	</attr>
-	<attr name="DESCRIPTION">
-		{'Ribosomal protein L19': 2}
-	</attr>
-</key>
-<key name="NodeType2" type="2" id="253">
-	<attr name="COGID">
-		{'COG0361': 2}
-	</attr>
-	<attr name="CC">
-		{'2155': 2}
-	</attr>
-	<attr name="COGCAT">
-		{'J': 2}
-	</attr>
-	<attr name="PATH">
-		{'1': 1, '2': 1}
-	</attr>
-	<attr name="SPECIES">
-		{'59395': 1, '58617': 1}
-	</attr>
-	<attr name="DESCRIPTION">
-		{'Translation initiation factor 1 (IF-1)': 2}
-	</attr>
-</key>
-<key name="NodeType2" type="2" id="531">
-	<attr name="COGID">
-		{'COG0126': 2}
-	</attr>
-	<attr name="CC">
-		{'706': 2}
-	</attr>
-	<attr name="COGCAT">
-		{'G': 2}
-	</attr>
-	<attr name="PATH">
-		{'1': 1, '2': 1}
-	</attr>
-	<attr name="SPECIES">
-		{'59395': 1, '58617': 1}
-	</attr>
-	<attr name="DESCRIPTION">
-		{'3-phosphoglycerate kinase': 2}
-	</attr>
-</key>
-<key name="NodeType2" type="2" id="585">
-	<attr name="COGID">
-		{'COG0148': 2}
-	</attr>
-	<attr name="CC">
-		{'597': 2}
-	</attr>
-	<attr name="COGCAT">
-		{'G': 2}
-	</attr>
-	<attr name="PATH">
-		{'1': 1, '2': 1}
-	</attr>
-	<attr name="SPECIES">
-		{'59395': 1, '58617': 1}
-	</attr>
-	<attr name="DESCRIPTION">
-		{'Enolase': 2}
-	</attr>
-</key>
-<key name="NodeType2" type="2" id="764">
-	<attr name="COGID">
-		{'COG0100': 2}
-	</attr>
-	<attr name="CC">
-		{'2158': 2}
-	</attr>
-	<attr name="COGCAT">
-		{'J': 2}
-	</attr>
-	<attr name="PATH">
-		{'1': 1, '2': 1}
-	</attr>
-	<attr name="SPECIES">
-		{'59395': 1, '58617': 1}
-	</attr>
-	<attr name="DESCRIPTION">
-		{'Ribosomal protein S11': 2}
-	</attr>
-</key>
-<key name="NodeType2" type="2" id="264">
-	<attr name="COGID">
-		{'COG0267': 2}
-	</attr>
-	<attr name="CC">
-		{'1940': 2}
-	</attr>
-	<attr name="COGCAT">
-		{'J': 2}
-	</attr>
-	<attr name="PATH">
-		{'1': 1, '2': 1}
-	</attr>
-	<attr name="SPECIES">
-		{'59395': 1, '58617': 1}
-	</attr>
-	<attr name="DESCRIPTION">
-		{'Ribosomal protein L33': 2}
-	</attr>
-</key>
-<key name="NodeType1" type="1" id="68995">
-	<attr name="Genome Project ID">
-		{'PRJNA59395': 1}
-	</attr>
-	<attr name="Pathogen">
-		{'2': 1}
-	</attr>
-	<attr name="Shorthand ID">
-		{'Tau': 1}
-	</attr>
-	<attr name="Species">
-		{'Tolumonas auensis DSM 9187': 1}
-	</attr>
-</key>
-<key name="NodeType1" type="1" id="64897">
-	<attr name="Genome Project ID">
-		{'PRJNA58617': 1}
-	</attr>
-	<attr name="Pathogen">
-		{'1': 1}
-	</attr>
-	<attr name="Shorthand ID">
-		{'Ahy': 1}
-	</attr>
-	<attr name="Species">
-		{'Aeromonas hydrophila subsp. hydrophila ATCC 7966': 1}
-	</attr>
-</key>
-</trail>
-</mod>
-
-
+	</key>
+	<key name="NodeType1" type="1" id="54">
+		<attr name="Genome Project ID">
+			{'PRJNA59395': 1}
+		</attr>
+		<attr name="Pathogen">
+			{'2': 1}
+		</attr>
+		<attr name="Shorthand ID">
+			{'Tau': 1}
+		</attr>
+		<attr name="Species">
+			{'Tolumonas auensis DSM 9187': 1}
+		</attr>
+	</key>
+	</trail>
+	<trail level="1">
+	<key name="NodeType2" type="2" id="871">
+		<attr name="COGID">
+			{'COG0335': 2}
+		</attr>
+		<attr name="CC">
+			{'3015': 2}
+		</attr>
+		<attr name="COGCAT">
+			{'J': 2}
+		</attr>
+		<attr name="PATH">
+			{'1': 1, '2': 1}
+		</attr>
+		<attr name="SPECIES">
+			{'59395': 1, '58617': 1}
+		</attr>
+		<attr name="DESCRIPTION">
+			{'Ribosomal protein L19': 2}
+		</attr>
+	</key>
+	<key name="NodeType2" type="2" id="253">
+		<attr name="COGID">
+			{'COG0361': 2}
+		</attr>
+		<attr name="CC">
+			{'2155': 2}
+		</attr>
+		<attr name="COGCAT">
+			{'J': 2}
+		</attr>
+		<attr name="PATH">
+			{'1': 1, '2': 1}
+		</attr>
+		<attr name="SPECIES">
+			{'59395': 1, '58617': 1}
+		</attr>
+		<attr name="DESCRIPTION">
+			{'Translation initiation factor 1 (IF-1)': 2}
+		</attr>
+	</key>
+	<key name="NodeType2" type="2" id="531">
+		<attr name="COGID">
+			{'COG0126': 2}
+		</attr>
+		<attr name="CC">
+			{'706': 2}
+		</attr>
+		<attr name="COGCAT">
+			{'G': 2}
+		</attr>
+		<attr name="PATH">
+			{'1': 1, '2': 1}
+		</attr>
+		<attr name="SPECIES">
+			{'59395': 1, '58617': 1}
+		</attr>
+		<attr name="DESCRIPTION">
+			{'3-phosphoglycerate kinase': 2}
+		</attr>
+	</key>
+	<key name="NodeType2" type="2" id="585">
+		<attr name="COGID">
+			{'COG0148': 2}
+		</attr>
+		<attr name="CC">
+			{'597': 2}
+		</attr>
+		<attr name="COGCAT">
+			{'G': 2}
+		</attr>
+		<attr name="PATH">
+			{'1': 1, '2': 1}
+		</attr>
+		<attr name="SPECIES">
+			{'59395': 1, '58617': 1}
+		</attr>
+		<attr name="DESCRIPTION">
+			{'Enolase': 2}
+		</attr>
+	</key>
+	<key name="NodeType2" type="2" id="764">
+		<attr name="COGID">
+			{'COG0100': 2}
+		</attr>
+		<attr name="CC">
+			{'2158': 2}
+		</attr>
+		<attr name="COGCAT">
+			{'J': 2}
+		</attr>
+		<attr name="PATH">
+			{'1': 1, '2': 1}
+		</attr>
+		<attr name="SPECIES">
+			{'59395': 1, '58617': 1}
+		</attr>
+		<attr name="DESCRIPTION">
+			{'Ribosomal protein S11': 2}
+		</attr>
+	</key>
+	<key name="NodeType2" type="2" id="264">
+		<attr name="COGID">
+			{'COG0267': 2}
+		</attr>
+		<attr name="CC">
+			{'1940': 2}
+		</attr>
+		<attr name="COGCAT">
+			{'J': 2}
+		</attr>
+		<attr name="PATH">
+			{'1': 1, '2': 1}
+		</attr>
+		<attr name="SPECIES">
+			{'59395': 1, '58617': 1}
+		</attr>
+		<attr name="DESCRIPTION">
+			{'Ribosomal protein L33': 2}
+		</attr>
+	</key>
+	<key name="NodeType1" type="1" id="68995">
+		<attr name="Genome Project ID">
+			{'PRJNA59395': 1}
+		</attr>
+		<attr name="Pathogen">
+			{'2': 1}
+		</attr>
+		<attr name="Shorthand ID">
+			{'Tau': 1}
+		</attr>
+		<attr name="Species">
+			{'Tolumonas auensis DSM 9187': 1}
+		</attr>
+	</key>
+	<key name="NodeType1" type="1" id="64897">
+		<attr name="Genome Project ID">
+			{'PRJNA58617': 1}
+		</attr>
+		<attr name="Pathogen">
+			{'1': 1}
+		</attr>
+		<attr name="Shorthand ID">
+			{'Ahy': 1}
+		</attr>
+		<attr name="Species">
+			{'Aeromonas hydrophila subsp. hydrophila ATCC 7966': 1}
+		</attr>
+	</key>
+	</trail>
+	</mod>
  
