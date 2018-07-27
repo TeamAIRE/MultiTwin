@@ -31,6 +31,7 @@ python3 -m pip install python-igraph
 python3 -m pip install ttkthemes
 python3 -m pip install bs4
 python3 -m pip install --upgrade html5lib
+python3 -m pip install screeninfo
 
 # install blast and diamond
 if [[ -n $MULTITWINDIR/simtools ]]; then rm -rf $MULTITWINDIR/simtools; fi 
