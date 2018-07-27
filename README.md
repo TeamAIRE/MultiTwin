@@ -52,6 +52,7 @@ CONTENTS:
 > Except for `bt_launcher.py, fg_launcher.py, dt_launcher.py, ds_launcher.py, utils.py, xmlform.py`, all files should be executable (if not, change the status with `$ chmod +x *.py`)
 
 `$ ls BlastProg/` 
+
 |||
 |---|:---:|
 | `cleanBlast/` | `C++` sources for `cleanblast` |
