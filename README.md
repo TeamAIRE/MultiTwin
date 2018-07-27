@@ -4,38 +4,50 @@ _Authors_: Eduardo Corel & Jananan S. Pathmanathan -- 2014-2018.
 
 CONTENTS:
 =========
-Download the tarball MultiTwin1.2.tar into an INSTALL_DIR
+# _Download methods_
 
-    $ cd INSTALL_DIR
-    $ tar -xvf MultiTwin1.2.tar
-    $ cd MultiTwin1.2
-    $ ls
-    install.sh                           Installer script
-	INSTALL.md                           Install instructions
-	README.md                            this file
-    BlastProg/                           program sources in C++
-    data/                                test data 
-    python-scripts/                      python scripts
+* From the Web site of Team AIRE: download the tarball `MultiTwin1.2.tar` into an `INSTALL_DIR`. The `MULTITWIN_DIR` will be then `MultiTwin1.2`
+ 
+      $ cd INSTALL_DIR
+      $ tar -xvf MultiTwin1.2.tar
+      $ cd MultiTwin1.2
+
+* From the TeamAIRE GitHub site: download the zipped archive `MultiTwin-master.zip` into an `INSTALL_DIR`. The `MULTITWIN_DIR` will be then `MultiTwin-master`
+
+      $ cd INSTALL_DIR
+      $ unzip MultiTwin-master.zip
+      $ cd MultiTwin-master	
+
+# _Contents of `MULTITWIN_DIR`_
+
+      $ ls
+      install.sh                           Installer script
+      INSTALL.md                           Install instructions
+      README.md                            this file
+      BlastProg/                           program sources in C++
+      data/                                test data 
+      python-scripts/                      python scripts
     
    `$ ls python-scripts/`
+
 |||
 |:---|:---:|
-   |`bitwin.py`| Runs a complete bipartite graph analysis|
-   |`blast_all.py`| will make a blast all-against-all|
-   |`cluster.py`| Cluster algorithm wrapper. Outputs a community file|
-   |`description.py`|Outputs description files based on an annotation file for a trail history hierarchy of graphs|
-   |`detect_twins.py`|Computes twin classes of nodes in graph|
-   |`factorgraph.py`| Factors a graph as communities|
-   |`bt_launcher.py`|Graphical startup utility for `bitwin.py`| 
-   |`fg_launcher.py`|Graphical startup utility for `factorgraph.py`|       
-   |`dt_launcher.py`|Graphical startup utility for `detect_twins.py`|       
-   |`ds_launcher.py`|Graphical startup utility for `description.py`|       
-   |`simplify_graph.py`|Removes degree one nodes from graph| 
-   |`subgraph.py`|Computes subgraph|
-   |`trailhistory.py`|Recalls commands from `ROOT` graph to current graph|
-   |`transfer_annotations.py`|Renames attributes according to `trailFile`|
-   |`utils.py`|Library of functions|
-   |`xmlform.py`| Graphical utility for XML config file editing|
+|`bitwin.py`| Runs a complete bipartite graph analysis|
+|`blast_all.py`| will make a blast all-against-all|
+|`cluster.py`| Cluster algorithm wrapper. Outputs a community file|
+|`description.py`|Outputs description files based on an annotation file for a trail history hierarchy of graphs|
+|`detect_twins.py`|Computes twin classes of nodes in graph|
+|`factorgraph.py`| Factors a graph as communities|
+|`bt_launcher.py`|Graphical startup utility for `bitwin.py`| 
+|`fg_launcher.py`|Graphical startup utility for `factorgraph.py`|       
+|`dt_launcher.py`|Graphical startup utility for `detect_twins.py`|       
+|`ds_launcher.py`|Graphical startup utility for `description.py`|       
+|`simplify_graph.py`|Removes degree one nodes from graph| 
+|`subgraph.py`|Computes subgraph|
+|`trailhistory.py`|Recalls commands from `ROOT` graph to current graph|
+|`transfer_annotations.py`|Renames attributes according to `trailFile`|
+|`utils.py`|Library of functions|
+|`xmlform.py`| Graphical utility for XML config file editing|
 
 > Except for `bt_launcher.py, fg_launcher.py, dt_launcher.py, ds_launcher.py, utils.py, xmlform.py`, all files should be executable (if not, change the status with `$ chmod +x *.py`)
 
@@ -205,7 +217,8 @@ A community file and a trail file follow the same syntax, except for a two-line 
 
 The `annotFile` is a flat TAB-separated file with columns containing the
 attributes of the nodes in the graph.  It has the following syntax:
-|                           |        |     |            |     |            |     |     |              |
+
+| |  | |  | | | |||
 |:--------------------------|:-------|:----|:-----------|:----|:-----------|:----|:----|:-------------|
 | COMPULSORY header line    | UniqID | TAB | Attribute1 | TAB | Attribute2 | TAB | …   | Attribute\_n |
 | OPTIONAL attribute lines: | Node1  | TAB | Value1     | TAB | Value2     | TAB |     | Value\_n     |
@@ -467,4 +480,4 @@ Removes gene family nodes having bounded degree (default by 1).
 | `-d D, --degree=D`    |     Ceiling value for degree    |default=1|
 | `-u U, --type=U`      |    Type of node if *k*-partite  |         |
 | `-s S, --separator=S` |         Field separator         |         |
-
+	
