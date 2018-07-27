@@ -74,55 +74,55 @@ File | DESCRIPTION | COMMENT |
 
 In `graph1.desc`, this appears under this format:
 
-Module 6
-Pathogen	{'1': 1, '2': 1}
-CC	{'597': 2, '3015': 2, '2158': 2, '1940': 2, '706': 2, '2155': 2}
-Species	{'Aeromonas hydrophila subsp. hydrophila ATCC 7966': 1, 'Tolumonas auensis DSM 9187': 1}
-Genome Project ID	{'PRJNA58617': 1, 'PRJNA59395': 1}
-Shorthand ID	{'Tau': 1, 'Ahy': 1}
-COGCAT	{'G': 4, 'J': 8}
-PATH	{'1': 6, '2': 6}
-COGID	{'COG0267': 2, 'COG0361': 2, 'COG0100': 2, 'COG0126': 2, 'COG0335': 2, 'COG0148': 2}
-DESCRIPTION	{'Enolase': 2, '3-phosphoglycerate kinase': 2, 'Ribosomal protein S11': 2, 'Ribosomal protein L19': 2, 'Translation initiation factor 1 (IF-1)': 2, 'Ribosomal protein L33': 2}
-SPECIES	{'59395': 6, '58617': 6}
-=========================================== level 2
-++++++++++++++++++++++++++++++++++++++++ 3 groups
-NodeType2 15
-{'COGID': {'COG0267': 2, 'COG0361': 2, 'COG0100': 2, 'COG0126': 2, 'COG0335': 2, 'COG0148': 2}, 'CC': {'597': 2, '3015': 2, '2158': 2, '1940': 2, '706': 2, '2155': 2}, 'COGCAT': {'G': 4, 'J': 8}, 'PATH': {'1': 6, '2': 6}, 'SPECIES': {'59395': 6, '58617': 6}, 'DESCRIPTION': {'Enolase': 2, '3-phosphoglycerate kinase': 2, 'Ribosomal protein S11': 2, 'Ribosomal protein L19': 2, 'Translation initiation factor 1 (IF-1)': 2, 'Ribosomal protein L33': 2}}
----------------------------------------
-NodeType1 48
-{'Genome Project ID': {'PRJNA58617': 1}, 'Pathogen': {'1': 1}, 'Shorthand ID': {'Ahy': 1}, 'Species': {'Aeromonas hydrophila subsp. hydrophila ATCC 7966': 1}}
----------------------------------------
-NodeType1 54
-{'Genome Project ID': {'PRJNA59395': 1}, 'Pathogen': {'2': 1}, 'Shorthand ID': {'Tau': 1}, 'Species': {'Tolumonas auensis DSM 9187': 1}}
----------------------------------------
-=========================================== level 1
-++++++++++++++++++++++++++++++++++++++++ 8 groups
-NodeType2 871
-{'COGID': {'COG0335': 2}, 'CC': {'3015': 2}, 'COGCAT': {'J': 2}, 'PATH': {'1': 1, '2': 1}, 'SPECIES': {'59395': 1, '58617': 1}, 'DESCRIPTION': {'Ribosomal protein L19': 2}}
----------------------------------------
-NodeType2 253
-{'COGID': {'COG0361': 2}, 'CC': {'2155': 2}, 'COGCAT': {'J': 2}, 'PATH': {'1': 1, '2': 1}, 'SPECIES': {'59395': 1, '58617': 1}, 'DESCRIPTION': {'Translation initiation factor 1 (IF-1)': 2}}
----------------------------------------
-NodeType2 531
-{'COGID': {'COG0126': 2}, 'CC': {'706': 2}, 'COGCAT': {'G': 2}, 'PATH': {'1': 1, '2': 1}, 'SPECIES': {'59395': 1, '58617': 1}, 'DESCRIPTION': {'3-phosphoglycerate kinase': 2}}
----------------------------------------
-NodeType2 585
-{'COGID': {'COG0148': 2}, 'CC': {'597': 2}, 'COGCAT': {'G': 2}, 'PATH': {'1': 1, '2': 1}, 'SPECIES': {'59395': 1, '58617': 1}, 'DESCRIPTION': {'Enolase': 2}}
----------------------------------------
-NodeType2 764
-{'COGID': {'COG0100': 2}, 'CC': {'2158': 2}, 'COGCAT': {'J': 2}, 'PATH': {'1': 1, '2': 1}, 'SPECIES': {'59395': 1, '58617': 1}, 'DESCRIPTION': {'Ribosomal protein S11': 2}}
----------------------------------------
-NodeType2 264
-{'COGID': {'COG0267': 2}, 'CC': {'1940': 2}, 'COGCAT': {'J': 2}, 'PATH': {'1': 1, '2': 1}, 'SPECIES': {'59395': 1, '58617': 1}, 'DESCRIPTION': {'Ribosomal protein L33': 2}}
----------------------------------------
-NodeType1 68995
-{'Genome Project ID': {'PRJNA59395': 1}, 'Pathogen': {'2': 1}, 'Shorthand ID': {'Tau': 1}, 'Species': {'Tolumonas auensis DSM 9187': 1}}
----------------------------------------
-NodeType1 64897
-{'Genome Project ID': {'PRJNA58617': 1}, 'Pathogen': {'1': 1}, 'Shorthand ID': {'Ahy': 1}, 'Species': {'Aeromonas hydrophila subsp. hydrophila ATCC 7966': 1}}
----------------------------------------
-#############################################
+    Module 6
+    Pathogen	{'1': 1, '2': 1}
+    CC	{'597': 2, '3015': 2, '2158': 2, '1940': 2, '706': 2, '2155': 2}
+    Species	{'Aeromonas hydrophila subsp. hydrophila ATCC 7966': 1, 'Tolumonas auensis DSM 9187': 1}
+    Genome Project ID	{'PRJNA58617': 1, 'PRJNA59395': 1}
+    Shorthand ID	{'Tau': 1, 'Ahy': 1}
+    COGCAT	{'G': 4, 'J': 8}
+    PATH	{'1': 6, '2': 6}
+    COGID	{'COG0267': 2, 'COG0361': 2, 'COG0100': 2, 'COG0126': 2, 'COG0335': 2, 'COG0148': 2}
+    DESCRIPTION	{'Enolase': 2, '3-phosphoglycerate kinase': 2, 'Ribosomal protein S11': 2, 'Ribosomal protein L19': 2, 'Translation initiation factor 1 (IF-1)': 2, 'Ribosomal protein L33': 2}
+    SPECIES	{'59395': 6, '58617': 6}
+    =========================================== level 2
+    ++++++++++++++++++++++++++++++++++++++++ 3 groups
+    NodeType2 15
+    {'COGID': {'COG0267': 2, 'COG0361': 2, 'COG0100': 2, 'COG0126': 2, 'COG0335': 2, 'COG0148': 2}, 'CC': {'597': 2, '3015': 2, '2158': 2, '1940': 2, '706': 2, '2155': 2}, 'COGCAT': {'G': 4, 'J': 8}, 'PATH': {'1': 6, '2': 6}, 'SPECIES': {'59395': 6, '58617': 6}, 'DESCRIPTION': {'Enolase': 2, '3-phosphoglycerate kinase': 2, 'Ribosomal protein S11': 2, 'Ribosomal protein L19': 2, 'Translation initiation factor 1 (IF-1)': 2, 'Ribosomal protein L33': 2}}
+    ---------------------------------------
+    NodeType1 48
+    {'Genome Project ID': {'PRJNA58617': 1}, 'Pathogen': {'1': 1}, 'Shorthand ID': {'Ahy': 1}, 'Species': {'Aeromonas hydrophila subsp. hydrophila ATCC 7966': 1}}
+    ---------------------------------------
+    NodeType1 54
+    {'Genome Project ID': {'PRJNA59395': 1}, 'Pathogen': {'2': 1}, 'Shorthand ID': {'Tau': 1}, 'Species': {'Tolumonas auensis DSM 9187': 1}}
+    ---------------------------------------
+    =========================================== level 1
+    ++++++++++++++++++++++++++++++++++++++++ 8 groups
+    NodeType2 871
+    {'COGID': {'COG0335': 2}, 'CC': {'3015': 2}, 'COGCAT': {'J': 2}, 'PATH': {'1': 1, '2': 1}, 'SPECIES': {'59395': 1, '58617': 1}, 'DESCRIPTION': {'Ribosomal protein L19': 2}}
+    ---------------------------------------
+    NodeType2 253
+    {'COGID': {'COG0361': 2}, 'CC': {'2155': 2}, 'COGCAT': {'J': 2}, 'PATH': {'1': 1, '2': 1}, 'SPECIES': {'59395': 1, '58617': 1}, 'DESCRIPTION': {'Translation initiation factor 1 (IF-1)': 2}}
+    ---------------------------------------
+    NodeType2 531
+    {'COGID': {'COG0126': 2}, 'CC': {'706': 2}, 'COGCAT': {'G': 2}, 'PATH': {'1': 1, '2': 1}, 'SPECIES': {'59395': 1, '58617': 1}, 'DESCRIPTION': {'3-phosphoglycerate kinase': 2}}
+    ---------------------------------------
+    NodeType2 585
+    {'COGID': {'COG0148': 2}, 'CC': {'597': 2}, 'COGCAT': {'G': 2}, 'PATH': {'1': 1, '2': 1}, 'SPECIES': {'59395': 1, '58617': 1}, 'DESCRIPTION': {'Enolase': 2}}
+    ---------------------------------------
+    NodeType2 764
+    {'COGID': {'COG0100': 2}, 'CC': {'2158': 2}, 'COGCAT': {'J': 2}, 'PATH': {'1': 1, '2': 1}, 'SPECIES': {'59395': 1, '58617': 1}, 'DESCRIPTION': {'Ribosomal protein S11': 2}}
+    ---------------------------------------
+    NodeType2 264
+    {'COGID': {'COG0267': 2}, 'CC': {'1940': 2}, 'COGCAT': {'J': 2}, 'PATH': {'1': 1, '2': 1}, 'SPECIES': {'59395': 1, '58617': 1}, 'DESCRIPTION': {'Ribosomal protein L33': 2}}
+    ---------------------------------------
+    NodeType1 68995
+    {'Genome Project ID': {'PRJNA59395': 1}, 'Pathogen': {'2': 1}, 'Shorthand ID': {'Tau': 1}, 'Species': {'Tolumonas auensis DSM 9187': 1}}
+    ---------------------------------------
+    NodeType1 64897
+    {'Genome Project ID': {'PRJNA58617': 1}, 'Pathogen': {'1': 1}, 'Shorthand ID': {'Ahy': 1}, 'Species': {'Aeromonas hydrophila subsp. hydrophila ATCC 7966': 1}}
+    ---------------------------------------
+    #############################################
 
 In `graph1.xml_desc`, the same module is described as follows:
 
