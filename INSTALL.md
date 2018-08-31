@@ -63,7 +63,9 @@ To check what version is currently installed, type:
      _WARNING_: installing the `igraph` library can take a rather long time.
      
   * The `igraph` libraries (_e.g._ `libigraph.so.0`) should be in the directory `/usr/local/lib` and the header files (_e.g._ `igraph.h`) in `/usr/local/include/igraph`. If it is not the case, edit the `BlastProg/makefile` to set the following lines according to your installation
+
 `PATH_IGRAPH_LIB = -L/usr/local/lib`
+
 `PATH_IGRAPH_INC = -I/usr/local/include/igraph`
          
 # INSTALLATION of the _MultiTwin_ package
