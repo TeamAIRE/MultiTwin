@@ -1,4 +1,5 @@
-This is the _README_ file for the pathogen-non pathogen dataset presented in the paper "_MultiTwin_: a software suite to analyse multipartite graphs" by Corel _et al_.
+This is the _README_ file for the pathogen-non pathogen dataset presented in the paper ["_MultiTwin_: a software suite to analyze evolution at multiple levels of organization using multipartite graphs"](https://doi.org/10.1093/gbe/evy209) by Corel _et al_.
+
 
 ### The contents of the directory `data`  is as follows:
 
