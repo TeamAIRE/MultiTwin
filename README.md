@@ -6,7 +6,7 @@ CONTENTS:
 =========
 # _Download methods_
 
-* From this repository: download the zipped archive `MultiTwin-master.zip` into an `INSTALL_DIR`. The `MULTITWIN_DIR` will be `MultiTwin-master`
+* From this repository: download or clone the zipped archive `MultiTwin-master.zip` into an `INSTALL_DIR`. The `MULTITWIN_DIR` will be `MultiTwin-master`
 
       $ cd INSTALL_DIR
       $ unzip MultiTwin-master.zip
