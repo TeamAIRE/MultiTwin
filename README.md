@@ -12,7 +12,7 @@ CONTENTS:
       $ unzip MultiTwin-master.zip
       $ cd MultiTwin-master	
 
-# _Contents of `MultiTwin-master`_
+# _Contents of_ `MultiTwin-master`
 
       $ ls
       install.sh                           Installer script
