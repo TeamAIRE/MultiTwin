@@ -6,13 +6,13 @@ CONTENTS:
 =========
 # _Download_
 
-* From this repository: download or clone the zipped archive `MultiTwin-master.zip` into an `INSTALL_DIR`. The `MULTITWIN_DIR` will be `MultiTwin-master`
+* From this repository: download or clone the zipped archive `MultiTwin-master.zip` into an `INSTALL_DIR`.
 
       $ cd INSTALL_DIR
       $ unzip MultiTwin-master.zip
       $ cd MultiTwin-master	
 
-# _Contents of `MULTITWIN_DIR`_
+# _Contents of `MultiTwin-master`_
 
       $ ls
       install.sh                           Installer script
