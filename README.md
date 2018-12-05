@@ -4,7 +4,7 @@ _Authors_: Eduardo Corel & Jananan S. Pathmanathan -- 2014-2018.
 
 CONTENTS:
 =========
-# _Download methods_
+# _Download_
 
 * From this repository: download or clone the zipped archive `MultiTwin-master.zip` into an `INSTALL_DIR`. The `MULTITWIN_DIR` will be `MultiTwin-master`
 
