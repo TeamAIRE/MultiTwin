@@ -27,6 +27,7 @@ else
     echo "Check igraph installation: see INSTALL file"; exit
 fi;
 
+python3 -m pip install setuptools
 python3 -m pip install python-igraph
 python3 -m pip install ttkthemes
 python3 -m pip install bs4
