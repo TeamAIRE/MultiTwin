@@ -6,13 +6,7 @@ CONTENTS:
 =========
 # _Download methods_
 
-* From the Web site of Team AIRE: download the tarball `MultiTwin1.2.tar` into an `INSTALL_DIR`. The `MULTITWIN_DIR` will be then `MultiTwin1.2`
- 
-      $ cd INSTALL_DIR
-      $ tar -xvf MultiTwin1.2.tar
-      $ cd MultiTwin1.2
-
-* From the TeamAIRE GitHub site: download the zipped archive `MultiTwin-master.zip` into an `INSTALL_DIR`. The `MULTITWIN_DIR` will be then `MultiTwin-master`
+* From this repository: download the zipped archive `MultiTwin-master.zip` into an `INSTALL_DIR`. The `MULTITWIN_DIR` will be `MultiTwin-master`
 
       $ cd INSTALL_DIR
       $ unzip MultiTwin-master.zip
