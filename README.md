@@ -2,8 +2,6 @@ _MultiTwin_ package for the analysis of multipartite graphs.
 
 _Authors_: Eduardo Corel & Jananan S. Pathmanathan -- 2014-2018.
 
-CONTENTS:
-=========
 # _Download_
 
 * From this repository: download or clone the zipped archive `MultiTwin-master.zip` into an `INSTALL_DIR`.
